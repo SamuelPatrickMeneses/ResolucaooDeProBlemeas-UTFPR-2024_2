@@ -1,0 +1,27 @@
+{
+	"name": "ResolucaooDeProBlemeas-UTFPR-2024_2",
+	"version": "1.0.0",
+	"typescript-template": {
+		"base": "1.0.1"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "ts-node src/index",
+		"test": "npm run lint",
+		"doc": "typedoc --out docs/typedoc src",
+		"format": "prettier-eslint --write **/*.*",
+		"lint": "eslint .",
+		"lint:prod": "npm run lint -- --config=.eslintrc.prod.json"
+	},
+	"devDependencies": {
+		"@types/node": "^18.19.39",
+		"@typescript-eslint/eslint-plugin": "^7.13.1",
+		"eslint": "^8.57.0",
+		"prettier": "^3.3.2",
+		"prettier-eslint": "^16.3.0",
+		"prettier-eslint-cli": "^8.0.1",
+		"ts-node": "^10.9.2",
+		"typedoc": "^0.26.1",
+		"typescript": "~5.4.2"
+	}
+}
