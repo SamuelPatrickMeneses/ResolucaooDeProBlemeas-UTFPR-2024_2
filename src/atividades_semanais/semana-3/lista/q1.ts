@@ -1,4 +1,4 @@
-export default function f(message :string, n = 1 :number) {
+export default function f(message :string, n = 1) {
     if (n > 0){
         console.log(message);
         f(message, n-1);

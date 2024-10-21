@@ -7,19 +7,21 @@
 	"scripts": {
 		"build": "tsc",
 		"start": "ts-node src/index",
-		"test": "npm run lint",
 		"doc": "typedoc --out docs/typedoc src",
 		"format": "prettier-eslint --write **/*.*",
 		"lint": "eslint .",
 		"lint:prod": "npm run lint -- --config=.eslintrc.prod.json"
 	},
 	"devDependencies": {
+		"@types/jest": "^29.5.13",
 		"@types/node": "^18.19.39",
 		"@typescript-eslint/eslint-plugin": "^7.13.1",
 		"eslint": "^8.57.0",
+		"jest": "^29.7.0",
 		"prettier": "^3.3.2",
 		"prettier-eslint": "^16.3.0",
 		"prettier-eslint-cli": "^8.0.1",
+		"ts-jest": "^29.2.5",
 		"ts-node": "^10.9.2",
 		"typedoc": "^0.26.1",
 		"typescript": "~5.4.2"

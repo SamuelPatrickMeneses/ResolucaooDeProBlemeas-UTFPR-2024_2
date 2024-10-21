@@ -1,6 +1,6 @@
-export default function f( n = 0 :number, i = 1 :number) {
-    console.log(i);
+export default function f( n :number , i = 1) {
     if (i <= n){
+        console.log(i);
         f(n, i+1);
     }
     if (n < 0)
