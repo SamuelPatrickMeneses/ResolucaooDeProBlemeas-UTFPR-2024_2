@@ -9,4 +9,4 @@ class AritimeticProgrecion {
             this.enumFormTo(Math.ceil(eFrom) - 1, Math.ceil(eTo));
     }
 }
-export default 
+export default AritimeticProgrecion;
